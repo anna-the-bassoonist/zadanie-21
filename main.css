@@ -1,0 +1,12 @@
+p{
+    height: 100px;
+    width: 100px;
+    background-color: darkcyan;
+}
+p:nth-of-type(-n+3){
+    background-color: aqua;
+}
+
+p:nth-last-of-type(-n+2){
+    opacity: 0.5;
+}
